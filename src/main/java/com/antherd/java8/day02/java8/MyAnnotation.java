@@ -13,7 +13,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Repeatable(MyAnnotations.class)
+@Repeatable(MyAnnotations.class) // MyAnnotations 类似注解的容器
 @Target({TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE, TYPE_PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyAnnotation {
