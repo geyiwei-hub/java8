@@ -17,7 +17,7 @@ import org.junit.Test;
  *
  * 3. 终止操作(终端操作)
  */
-public class TestStreamaAPI {
+public class TestStreamAPI {
 
 	//1. 创建 Stream
 	@Test

@@ -35,7 +35,7 @@ public class TestStreamAPI3 {
 		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 
 		Integer sum = list.stream()
-			.reduce(0, (x, y) -> x + y);
+			.reduce(0, (x, y) -> x + y); // 起始时 x=0，y=1，计算出x+y后赋值给x
 
 		System.out.println(sum);
 

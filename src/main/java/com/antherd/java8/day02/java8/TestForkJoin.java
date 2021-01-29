@@ -8,6 +8,9 @@ import org.junit.Test;
 
 public class TestForkJoin {
 
+	/**
+	 * fork
+	 */
 	@Test
 	public void test1(){
 		long start = System.currentTimeMillis();
@@ -23,6 +26,9 @@ public class TestForkJoin {
 		System.out.println("耗费的时间为: " + (end - start)); //112-1953-1988-2654-2647-20663-113808
 	}
 
+	/**
+	 * for
+	 */
 	@Test
 	public void test2(){
 		long start = System.currentTimeMillis();
@@ -40,6 +46,9 @@ public class TestForkJoin {
 		System.out.println("耗费的时间为: " + (end - start)); //34-3174-3132-4227-4223-31583
 	}
 
+	/**
+	 * java8 并行流
+	 */
 	@Test
 	public void test3(){
 		long start = System.currentTimeMillis();
